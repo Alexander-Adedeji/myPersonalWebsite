@@ -1,0 +1,256 @@
+*
+{/*
+    margin:0px;
+    padding: 0px;*/
+
+}
+body
+{
+
+    text-transform: uppercase;
+
+    color:#3F3D56;
+
+   
+}
+
+/*#home,#about,#portfolio
+{
+    height: 100vh;
+}*/
+
+
+/************************Top Bar****************************************/
+
+.top-bar
+{
+    display: flex;
+    justify-content: space-between;
+;
+}
+
+.top-bar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.3rem 1rem 0 1rem;
+    cursor: pointer;
+    font-family: ravie;
+}
+.nav-link{
+font-weight: 900;
+   
+}
+a:hover{
+
+    color: #0069D9 !important;
+}
+a:active{
+
+    color: #0069D9 !important;
+}
+
+
+
+.top-icons:hover{
+    color:#6C63FF;
+  
+    
+}
+
+/************************Top Bar****************************************/
+
+
+
+/***************************Navigation******************************************/
+#navigation{
+
+    position: sticky;
+    top: 0px;
+    z-index:4;
+    background-color: white;
+
+}
+.navbar-brand
+{
+    padding: 0 2rem 0 5rem;
+    font-family: 'Roboto', cursive;
+    font-size: 600;
+
+}
+
+/***************************Navigation******************************************/
+
+
+
+
+
+
+
+#banner
+{
+    background: url(../img/home-banner.png);
+   
+}
+
+#banner-text
+{
+    padding:  10rem 2rem 6rem 5rem;
+    position: relative;
+    top:30px;
+}
+#banner-text h2{
+    font-size: 3rem;
+}
+#banner-text P{
+    font-size: 2rem;
+}
+
+#hire-me{
+    width: 30%;
+}
+
+#get-cv{
+    width: 30%;
+}
+#hire-me:hover{
+    background-color: white;
+    color: #0069D9;
+}
+
+#services div{
+
+}
+
+
+.card
+{
+    color: white;
+}
+
+.card h3{
+    color: #0069D9;
+}
+
+
+#float{
+    display: flex;
+    justify-content: space-around;
+}
+.exp-img:hover
+{
+    display: none;
+}
+
+
+.about
+{
+    position: relative;
+    top: 150px;
+    margin-bottom: 200px;
+}
+
+.push
+{
+  
+}
+.push:hover{
+
+}
+
+.card:hover
+{
+    background-color: #3F3D56 !important;
+}
+
+.single-brand:hover
+{
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.testimonial{
+   color: white;
+
+}
+
+.testimonial:hover{
+    border:2px solid white;
+    box-shadow: 5px 5px 5px white;
+    background-color: #3F3D56;
+    
+
+}
+
+
+
+/*******************************Contact********************************************/
+    .cont{
+        text-align: center;
+        width: 80%;
+        cursor: pointer;
+        min-height: 100px;
+
+    }
+
+#phone-number{
+    background-color: #3F3D56;
+   
+}
+
+#email{
+    background-color: #0069D9;
+    color: #0069D9;
+}
+
+#address{
+    background-color: #6C63FF;
+    color:#6C63FF
+}
+#address:hover{
+
+    cursor: pointer;
+    color:white;
+
+
+}
+#email:hover{
+
+    cursor: pointer;
+    color:white;
+
+
+}
+#phone-number:hover{
+
+    cursor: pointer;
+    color:white;
+
+
+}
+
+
+
+/*******************************End of Contact********************************************/
+
+
+/**************************************Footer********************************************/
+footer{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/*******************************End of Footer********************************************/
